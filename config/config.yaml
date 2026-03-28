@@ -1,0 +1,9 @@
+model:
+  backbone: efficientnet-b0
+  input_size: 224
+  threshold: 0.5
+face_extraction:
+  min_face_size: 60
+  confidence: 0.9
+video:
+  sample_rate: 10
